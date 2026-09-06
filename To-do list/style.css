@@ -1,5 +1,7 @@
 body{
     font-size: 2rem;
+    background-color: rgb(247, 245, 242);
+    color: rgb(45, 42, 38)
 }
 #tasks{
     display: flex;
@@ -13,6 +15,9 @@ body{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
 }
 #add_task{
     border-radius: 5px;
@@ -70,8 +75,13 @@ body{
     gap: 8px;
     padding: 10px;
 }
-#overlay button{
+.overlay_btn{
     font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(91, 140, 123);
 }
 #darkbg.active{
     display: flex;
