@@ -92,7 +92,7 @@ body{
     align-self: flex-start;
     font-size: 2rem;
 }
-.task_box span{
+.span{
     font-size: 3rem;
     align-self: center;
     padding: 10px;
@@ -108,7 +108,7 @@ body{
     align-self: center;
     height: fit-content;
 }
-#del_btn{
+.del_btn{
     height: fit-content;
     width: fit-content;
     align-self: center;
@@ -121,6 +121,6 @@ body{
     cursor: pointer;
     border: none;
 }
-#del_btn:hover{
+.del_btn:hover{
     background-color: red;
 }
